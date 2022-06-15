@@ -14,6 +14,8 @@
 const express = require('express')
 const app = express()
 
+console.log("POLL");
+
 app.get('/', function (req, res) {
   res.send('Hello World')
 })
